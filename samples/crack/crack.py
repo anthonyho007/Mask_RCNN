@@ -94,10 +94,10 @@ class CrackConfig(Config):
 
     # Input image resizing
     # Random crops of size 512x512
-    IMAGE_RESIZE_MODE = "crop"
-    IMAGE_MIN_DIM = 512
-    IMAGE_MAX_DIM = 512
-    IMAGE_MIN_SCALE = 2.0
+#    IMAGE_RESIZE_MODE = "crop"
+#    IMAGE_MIN_DIM = 512
+#    IMAGE_MAX_DIM = 512
+#    IMAGE_MIN_SCALE = 2.0
 
     # Length of square anchor side in pixels
     RPN_ANCHOR_SCALES = (8, 16, 32, 64, 128)
